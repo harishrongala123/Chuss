@@ -16,7 +16,7 @@ class Signup extends StatefulWidget {
   _SignupState createState() => _SignupState();
 }
 
-List <String> _list = ['Plumber','Carpenter','Electrician','Builder','Catering','Painter','Mechanic','Tailor'];
+List <String> _list = ['Plumber','Carpenter','Electrician','Builder','Catering','Painter','Mechanic','Tailor','EventManager'];
 
 class _SignupState extends State<Signup> {
   TextEditingController username = new TextEditingController();

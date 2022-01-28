@@ -2,6 +2,7 @@ import 'package:chuss/Customer-side/Services/Builder/Builder.dart';
 import 'package:chuss/Customer-side/Services/Carpenter/Carpenter.dart';
 import 'package:chuss/Customer-side/Services/Catering/Catering.dart';
 import 'package:chuss/Customer-side/Services/Electrician/Electrician.dart';
+import 'package:chuss/Customer-side/Services/EventManager/EventManager.dart';
 import 'package:chuss/Customer-side/Services/Mechanic/Mechanic.dart';
 import 'package:chuss/Customer-side/Services/Painter/Painter.dart';
 import 'package:chuss/Customer-side/Services/Plumber/Plumber.dart';
@@ -331,7 +332,7 @@ class Services extends StatelessWidget {
                       ),
                     ),
                     Text(
-                      'Plumber',
+                      'EventPlaner',
                       style: TextStyle(
                         color: Theme.of(context).accentColor,
                       ),
@@ -344,7 +345,11 @@ class Services extends StatelessWidget {
                   return Theme.of(context).primaryColor;
                 })),
 
-                onPressed: () {  },),
+                onPressed: () {
+                  Navigator.of(context).push(
+                    MaterialPageRoute(builder: (context) => EventManager()),
+                  );
+                },),
               color: Theme.of(context).primaryColor,
               borderRadius: 10,
             ),

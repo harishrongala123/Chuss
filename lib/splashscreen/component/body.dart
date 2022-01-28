@@ -19,7 +19,7 @@ class _BodyState extends State<Body> {
 
     {
       "text": "Welcome to Chuss, Let’s start!",
-      "image": "assets/images/splash_1.png"
+      "image": "assets/images/splash_3.png"
     },
     {
       "text":
@@ -28,7 +28,7 @@ class _BodyState extends State<Body> {
     },
     {
       "text": "We show the easy way to grab a technician. \nJust stay at home with us",
-      "image": "assets/images/splash_3.png"
+      "image": "assets/images/splash_1.png"
     },
   ];
 
